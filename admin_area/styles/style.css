@@ -46,6 +46,7 @@ body
     height: 150px;
     background: white;
     background-image:url(bg-header.jpg);
+    border-bottom: 2px groove orange;
 }
 
 .left_sidebar
@@ -64,4 +65,6 @@ body
     height: 500px;
     background: gray;
     float: right;
+    border-left:0px groove orange;
+        
 }
