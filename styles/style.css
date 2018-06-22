@@ -1,0 +1,199 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body{
+    background: skyblue;
+    }
+
+.main_wrapper{
+    width: 1200px;
+    height: auto;
+    margin: auto;    
+}
+
+.header_wrapper{
+    width: 1200px;
+    height: 100px;
+    background: white;
+}
+
+.navi_wrapper{
+    width: 1200px;
+    height: 60px;
+    background: gray;   
+}
+
+#main{
+    padding: 0;
+    line-height: 36px;
+    margin-top: 5px;
+    float: left;   
+}
+
+#main li{
+    list-style: none;
+    display: inline;
+}
+
+#main a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 5px;
+    padding: 10px;    
+}
+
+#main a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder;
+}
+
+#form{
+    float: right;
+    line-height: 50px;
+    padding-right: 5px;
+}
+
+.main_content{
+    width: 1200px;
+    height:auto;
+    background: brown; 
+    }
+
+#right_content{
+    width: 1000px;
+    height:auto;
+    background:brown;
+    float: right;
+}
+
+/*Homepage Banner*/
+
+.slideshow img{
+    position:relative;
+    width: 1000px;
+    height: 260px;     
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#left_sidebar{
+    height:auto;
+    width: 200px;
+    float: left;
+    background: black;
+    box-shadow: 3px 3px 2px;
+        
+}
+
+.footer{
+    width: 1200px;
+    height: 35px;
+    background: gray;
+    clear: both;
+    font-size: 10px;
+    
+}
+
+
+
+#sidebar_title{
+    background: white;
+    color:black;
+    padding: 10px;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}   
+
+#cats{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#cats li{
+    list-style: none;
+    margin: 10px;
+}
+
+#cats a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;    
+}
+
+#cats a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: orange;
+}
+
+
+#headline{background: black;color: white;
+height: 35px;
+width: 984px;
+padding: 7.99px;
+
+}
+
+#headline_content{float: right;}
+
+
+#product_box{
+    width: 1000px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#single_product{float: left;padding:30px;border:1px solid black;height: 250px;width: 180px;}
+#single_product h3{font-size: 14px;}
+#single_product p{width: 600px;text-align: justify}
+#single_product h4{font-size: 20px}
+
+
+
