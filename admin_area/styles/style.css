@@ -51,8 +51,8 @@ body
 
 .left_sidebar
 {
-    width: 700px;
-    height: 500px;
+    width: 750px;
+    height: auto;
     background: white;
     background-image:url(bg-body.png);
     background-repeat: no-repeat;
@@ -61,10 +61,30 @@ body
 
 .right_sidebar
 {
-    width:280px;
-    height: 500px;
+    width:230px;
+    height: auto;
     background: gray;
     float: right;
     border-left:0px groove orange;
         
+}
+
+.right_sidebar a 
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: block;
+    color: white;
+    
+    
+}
+
+.right_sidebar a:hover
+{
+    text-decoration: underline;
+    font-weight: bolder;
 }

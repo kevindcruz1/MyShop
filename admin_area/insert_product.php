@@ -1,5 +1,6 @@
 <?php
-include("includes/dp.php");
+include("functions/functions.php");
+include ("includes/dp.php");
 ?>
 
 <!DOCTYPE html>
@@ -20,10 +21,9 @@ include("includes/dp.php");
         
         <form method="post" action="insert_product.php" enctype="multipart/form-data">
             
-            <table width="700" align="center" border="1" bgcolor="skyblue">
+            <table width="750" align="center" border="1" bgcolor="skyblue" style="border-spacing: 8px;" >
                 
-                <tr>
-                    
+                <tr>                    
                     <td colspan="2" align="center">
                         <h2>Insert New Product:</h2>    
                     </td>
@@ -31,14 +31,14 @@ include("includes/dp.php");
                 
                 
                 <tr>
-                    <td align="right" size="40"><b>Product Name</b></td>
-                    <td><input type="text" name="product_title" placeholder="Product Name"/></td>                       
+                    <td align="right" size="40"><b>Product Name:</b></td>
+                    <td align="left"><input type="text" name="product_title" placeholder="Product Name"/></td>                       
                     
                 </tr>
                 
                 
                 <tr>
-                    <td align="right"><b>Product Category</b></td>
+                    <td align="right"><b>Product Category:</b></td>
                             <td><select name="product_cat">
                                     <option>Select a Category</option>
                                    <?php
@@ -64,7 +64,7 @@ include("includes/dp.php");
                 
                 
                 <tr>
-                    <td align="right"><b>Product Brand</b></td>
+                    <td align="right"><b>Product Brand:</b></td>
                             <td><select name="product_brand">
                                     
                             <option>Select a Brand</option>        
@@ -95,37 +95,37 @@ include("includes/dp.php");
                 </tr>
                 
                 <tr>
-                    <td align="right"><b>Product Image 1</b></td>
+                    <td align="right"><b>Product Image 1:</b></td>
                     <td><input type="file" name="product_img1"/></td>                       
                     
                 </tr>
                 
                 <tr>
-                    <td align="right"><b>Product Image 2</b></td>
+                    <td align="right"><b>Product Image 2:</b></td>
                     <td><input type="file" name="product_img2"/></td>                       
                     
                 </tr>
                 
                 <tr>
-                    <td align="right"><b>Product Image 3</b></td>
+                    <td align="right"><b>Product Image 3:</b></td>
                     <td><input type="file" name="product_img3"/></td>                       
                     
                 </tr>
                 
                 <tr>
-                    <td align="right"><b>Product Price</b></td>
+                    <td align="right"><b>Product Price:</b></td>
                     <td><input type="text" name="product_price" placeholder="Enter Price"/></td>                       
                     
                 </tr>
                 
                 <tr>
-                    <td align="right"><b>Product Description</b></td>
-                    <td><textarea name="product_desc" cols="30" rows="15"></textarea></td>                       
+                    <td align="right"><b>Product Description:</b></td>
+                    <td><textarea name="product_desc" cols="50" rows="8" placeholder="Write Description.."></textarea></td>                       
                     
                 </tr>
                 
                 <tr>
-                    <td align="right"><b>Product Keywords</b></td>
+                    <td align="right"><b>Product Keywords:</b></td>
                     <td><input type="text" name="product_keyword" placeholder="Product Keyword"/></td>                       
                     
                 </tr>
